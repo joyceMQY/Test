@@ -2,7 +2,7 @@
    <br>  -> 25%
 2. Test Cases:
 <br>\- Add/ Subtract: 
-	<br>	Positive number, zero and negative number should be considered: 5% for Add/ 5% for Subtract
+	<br>/tPositive number, zero and negative number should be considered: 5% for Add/ 5% for Subtract
 	<br>	Max value should be considered: 5% for Add/ 5% for Subtract
     <br>	-> 20%
 <br>\- Multiply: 
@@ -19,7 +19,7 @@
 	-> 5%
 
 3. 
-Correct folder structures and consistent package names: 10%
-Correct version of JUnit test cases: 5%
-Commit ID submission: 5%
--> 20%
+<br>Correct folder structures and consistent package names: 10%
+<br>Correct version of JUnit test cases: 5%
+<br>Commit ID submission: 5%
+<br>-> 20%
