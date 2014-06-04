@@ -3,8 +3,8 @@
 2. Test Cases:
 <br>\- Add/ Subtract: 
 	<br>/tPositive number, zero and negative number should be considered: 5% for Add/ 5% for Subtract
-	<br>	Max value should be considered: 5% for Add/ 5% for Subtract
-    <br>	-> 20%
+	<br>    Max value should be considered: 5% for Add/ 5% for Subtract
+    <br>    -> 20%
 <br>\- Multiply: 
 	Negative number multiply positive number: 5%
 	Any number multiply zero: 5%
