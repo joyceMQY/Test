@@ -69,7 +69,6 @@ Usage:
 <br>&nbsp;&nbsp;&nbsp;&nbsp;-> 1234567890
 <br>&nbsp;&nbsp;&nbsp;&nbsp;-> 1234567891
 <br>&nbsp;&nbsp;&nbsp;&nbsp;-> 1234567892
-
 <br>&nbsp;&nbsp;(2) Add New Customers and then "login" with the generated VIP Card Number. Please remember the number by viewing the customer's info (click "Details" button). Same with #2.
 
 - Add a new customer by entering the necessary information. The system will direct to the customer's home page after it is created.
