@@ -23,3 +23,61 @@
 <br>Correct version of JUnit test cases: 5%
 <br>Commit ID submission: 5%
 <br>-> 20%
+
+
+
+Coffee Cart Android Application
+
+Android Version: 4.0(minimum required) - 4.4.2
+
+Package: edu.gatech.cc.cs6300.online.coffeecart
+- Activity classes are used to control the transaction flow. The associations are all implemented in these classes.
+
+Package: edu.gatech.cc.cs6300.online.coffeecart.database
+- All the classes related to database operations.
+
+  Database Design:
+  - 4 tables: Customer, Item, Transaction, TransactionItems
+  - Customer: Contains all the customer info
+  - Item: Contains all the item (including dessert and coffee) info
+  - Transaction: Transactions have 3 types including purchases, refills and preorders. In this table, it contains the following columns: transaction id, customer id, transaction type, preorder date (if there is), total price and the transaction timestamp.
+  - TransactionItems: Contains the transaction details - the item list and corresponding amounts.
+
+Package: edu.gatech.cc.cs6300.online.coffeecart.entity
+- The entities that is stored in the database. This includes all the classes in the class diagram.
+
+Package: edu.gatech.cc.cs6300.online.coffeecart.utility
+- Some utility operations like cardnumber validation.
+
+Problems:
+
+1. Whether customer should pay for preorder?
+-> I assume all the preorder should be paid and the price is the total price of the ordered desserts.
+
+2. Whether the money in purchase also includes the money spent on refills?
+-> I assume purchase and refill are different transactions.
+
+3. How should the customer check out? Right after order or just before leaving?
+-> I assume the customer should pay when they are purchasing, asking for refills and preordering.
+
+4. The database design doesn't use different tables to distinguish between dessert and coffee, and among purchase, refill and preorder. So whether the entities in the entity package should also be changed according to the tables? If so, PreOrder class, Purchase class, Dessert class and Coffee class are not necessary any more, this is not consistent with our original design. 
+
+Usage: 
+
+1. Input a VIP Card Number and click "Submit", then you can manage the customer's info, purchase/refill/preorder items and view the transaction history.
+
+<br>(1) Available VIP Card Numbers:
+<br>-> 1234567890
+<br>-> 1234567891
+<br>-> 1234567892
+
+<br>(2) Add New Customers and then "login" with the generated VIP Card Number. Please remember the number by viewing the customer's info (click "Details" button). Same with #2.
+
+2. Add a new customer by entering the necessary information. The system will direct to the customer's home page after it is created.
+
+3. See the PreOrders those are picked up today.
+
+4. See the Purchases/Refills today.
+
+
+
