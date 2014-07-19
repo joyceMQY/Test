@@ -64,18 +64,18 @@ Problems:
 
 Usage: 
 
-- Input a VIP Card Number and click "Submit", then you can manage the customer's info, purchase/refill/preorder items and view the transaction history.
+1. Input a VIP Card Number and click "Submit", then you can manage the customer's info, purchase/refill/preorder items and view the transaction history.
 <br>&nbsp;&nbsp;(1) Available VIP Card Numbers:
 <br>&nbsp;&nbsp;&nbsp;&nbsp;-> 1234567890
 <br>&nbsp;&nbsp;&nbsp;&nbsp;-> 1234567891
 <br>&nbsp;&nbsp;&nbsp;&nbsp;-> 1234567892
 <br>&nbsp;&nbsp;(2) Add New Customers and then "login" with the generated VIP Card Number. Please remember the number by viewing the customer's info (click "Details" button). Same with #2.
 
-- Add a new customer by entering the necessary information. The system will direct to the customer's home page after it is created.
+2. Add a new customer by entering the necessary information. The system will direct to the customer's home page after it is created.
 
-- See the PreOrders those are picked up today.
+3. See the PreOrders those are picked up today.
 
-- See the Purchases/Refills today.
+4. See the Purchases/Refills today.
 
 
 
